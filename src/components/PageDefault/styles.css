@@ -1,0 +1,4 @@
+.container {
+  display: block;
+  transition: margin-left 0.4s;
+}

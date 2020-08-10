@@ -1,0 +1,30 @@
+:root {
+  --color-background: #222;
+  --color-primary: #0267C1;
+  --color-primary-grey: #9A8C98;
+  --color-primary-dark: #1B263B;
+  --color-primary-yellow: #ECA400;
+  --color-text-default: #f5f5f5;
+
+  font-size: 60%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-background);
+  font-family: Roboto sans-serif;
+  color: var(--color-text-default);
+}
+
+@media(min-width: 700px) {
+  .page {
+    display: grid;
+    grid-template-columns: 6rem calc(100vw - 6rem);
+  }
+}
+
